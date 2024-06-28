@@ -6,6 +6,12 @@ Al iniciar sesion : Se visualiza el NavBar con los enlaces:
 Index.html-Inicio 
 New-Product.html-Crear Producto
 List-Products.html-Listado de Productos
+-Tabla    
+-Producto
+-Detalle
+-Monto
+-Cantidad
+-Acciones 
 Cerrar Sesion - Esto no es una pagina, es una accion del boton.
 
 Temas a aplicar : 
@@ -53,3 +59,7 @@ D-Delete - Eliminar
         </form>
     </div>
 </nav>
+
+
+
+

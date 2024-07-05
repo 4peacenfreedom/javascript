@@ -68,7 +68,7 @@ if ((pato = true)) {
 
 let edad = 18;
 if (edad == 18) {
-  alert("Eres mayor de edad");
+  console.warn("Eres mayor de edad");
 } else {
-  alert("No eres mayor de edad");
+  console.error("No eres mayor de edad");
 }

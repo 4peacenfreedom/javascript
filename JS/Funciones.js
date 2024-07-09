@@ -1,27 +1,35 @@
-// Funciones
-// Simple
-// Argumentos
-// Anonimas
-// Return
-// Modernas
+//5- Funciones
+// Funciones Simple
+//Funcion con parametros
+//Anonimas
+//Return
+//Modernas
 
-// Invocando la funcion
-Saludar();
+//Invocando la funcion
+// Saludar();
+// ConsultarProductos();
+// InsertarProducto();
+
+// SaludoDinamico(33)
+// SaludoEstatico()
+
+let edad = prompt("Ingrese su edad ");
+ValidaEdad(edad);
+
+let AquienQuiereSaludar = prompt("Indique a quien va a saludar");
+SaludoDinamico(AquienQuiereSaludar);
 
 //Creando
 function Saludar() {
-  console.log("Hola a todos ");
+  console.log("Hola a Todos ");
 }
 
-let edad = prompt("Ingrese su edad");
-ValidaEdad;
-
 function ConsultarProductos() {
-  console.log("Consultando productos ...");
+  console.log("Consultando productos .....");
 }
 
 function InsertarProducto() {
-  console.log("Insertar productos...");
+  console.log("Insertar productos .....");
 }
 
 function Hola() {
@@ -33,8 +41,32 @@ function IniciarSesion() {
   let pass = 1234;
 
   if (nombre == "Pepe" && pass == 1234) {
-    alert("Bienvenido");
+    MensajeExitoso();
   } else {
-    alert("No cumple con las condiciones");
+    MensajeNoExitoso();
+  }
+}
+
+function SaludoDinamico(variable1) {
+  alert("Hola a " + variable1);
+}
+
+function SaludoEstatico() {
+  alert("Hola a Pepe");
+}
+
+function MensajeExitoso() {
+  alert("Funcion Exitosa ");
+}
+
+function MensajeNoExitoso() {
+  alert("No cumple con las condiciones ");
+}
+
+function ValidaEdad(Edad) {
+  if (Edad >= 18) {
+    alert("Eres Mayor de Edad");
+  } else {
+    alert("Eres Menor de Edad :(");
   }
 }

@@ -67,7 +67,7 @@ Crear una calculadora que permita a los usuarios calcular su IMC basado en su pe
     <input type="submit" value="Calcular" onclick="calcularIMC(event)">
 </form>
 <p id="resultado"></p>
-
+```
 
 # Función JavaScript para Calcular el IMC
 

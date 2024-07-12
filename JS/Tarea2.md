@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-Modificar el código JavaScript para manejar la lógica de una solicitud de información y actualizar el HTML para que los elementos y etiquetas sean consistentes.
+Crea el código JavaScript para manejar la lógica de una solicitud de información y actualizar el HTML para que los elementos y etiquetas sean consistentes.
 
 ## Instrucciones
 

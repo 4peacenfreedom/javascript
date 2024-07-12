@@ -9,20 +9,21 @@ function Calculadora2(event) {
     const Num1 =parseFloat(document.getElementById("Num1").value);
     const Num2 =parseFloat(document.getElementById("Num2").value);
     const operaciones = document.getElementById("operaciones").value;
-    let calculo;
+    let calculo ;
+
     switch (operaciones) {
         case "+":
-            calculo = Num1 + Num2
+            calculo = Num1 + Num2;
             
             break;
         case "-":
-                calculo = Num1 - Num2
+                calculo = Num1 - Num2;
             break;
         case "*":
-                calculo = Num1 * Num2
+                calculo = Num1 * Num2;
             break;
         case "/":
-                calculo = Num1 / Num2
+                calculo = Num1 / Num2;
             break;
         default:
                 calculo = "Operacion no valida"

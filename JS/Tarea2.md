@@ -34,7 +34,7 @@ Utiliza el siguiente código HTML para crear el formulario de solicitud de infor
     <input type="submit" value="Enviar Solicitud" onclick="enviarSolicitud(event)">
 </form>
 <div id="resultado"></div>
-
+```html
 ## JavaScript:
 
 Escribe una función JavaScript llamada `enviarSolicitud` que se ejecute cuando el formulario sea enviado. Esta función debe:

@@ -1,93 +1,85 @@
-<!doctype html>
-<html lang="en">
-
-<head>
+<!DOCTYPE html>
+<html lang="es">
+  <head>
     <title>Mi Pagina</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-   
-        <div class="">
-
-            <nav class="navbar navbar-expand-sm navbar-light bg-light" id="V_NavBar">
-               
-            </nav>
-
-         
-
-
-
-            <header class="container mt-4">
-                <div class="jumbotron">
-                    <h1 class="display-3">Jumbo heading</h1>
-                    <p class="lead">Jumbo helper text</p>
-                    <hr class="my-2">
-                    <p>More info</p>
-                    <p class="lead">
-                        <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
-                    </p>
-                </div>
-            </header>
-
-
-
-
-            <main class="container mt-4">
-                
-                <section class="row ">
-                    <div class="card col-lg-4">
-                        <img class="card-img-top img-thumbnail" src="https://images.unsplash.com/photo-1589312133722-eab40c686ebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                    <div class="card col-lg-4"">
-                        <img class="card-img-top img-thumbnail" src="https://images.unsplash.com/photo-1589312133722-eab40c686ebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                    <div class="card col-lg-4"">
-                        <img class="card-img-top img-thumbnail" src="https://images.unsplash.com/photo-1589312133722-eab40c686ebb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDJ8NnNNVmpUTFNrZVF8fGVufDB8fHx8fA%3D%3D" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">Title</h4>
-                            <p class="card-text">Text</p>
-                        </div>
-                    </div>
-                </section>
-              <br>
-         
-
-      
-            </main>
-
+  <body>
+    <div class="">
+      <nav
+        class="navbar navbar-expand-sm navbar-light bg-light"
+        id="V_NavBar"
+      ></nav>
+      <header class="container mt-4">
+        <div class="jumbotron">
+          <h1 class="display-3">Jumbo heading</h1>
+          <p class="lead">Jumbo helper text</p>
+          <hr class="my-2" />
+          <p>More info</p>
+          <p class="lead">
+            <a
+              class="btn btn-primary btn-lg"
+              href="Jumbo action link"
+              role="button"
+              >Jumbo action name</a
+            >
+          </p>
         </div>
+      </header>
+      <main class="container mt-4">
+        <input
+          type="text"
+          class="form-control mb-3"
+          placeholder="Ingrese el nombre que desea buscar"
+          id="BotonBuscar"
+        />
+        <div id="contenedorHeroes" class="row"></div>
+      </main>
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <footer class="bg-dark text-white text-center">
+        <div class="container">
+          <span class="text-white">@ 2024 Sitio Web</span>
+          <ul class="list-inline" id="V_Lista_Footer">
+            <!-- Aquí se insertan los elementos del pie de pagina <li>terminos condiciones</li> -->
+          </ul>
+        </div>
+      </footer>
+    </div>
 
- 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
-            <script src="js/NavBar.js"></script>
-        
-</body>
-
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/NavBar.js"></script>
+    <script src="js/Footer.js"></script>
+    <script src="js/LigaDeLaJusticia.js"></script>
+  </body>
 </html>
